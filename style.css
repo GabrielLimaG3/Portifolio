@@ -1,0 +1,30 @@
+*{
+    color: white;
+}
+body{
+    background-color: black;
+}
+
+hr{
+    margin-bottom: 20px;
+}
+header a{
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 0px;
+    margin: 10px;
+    background-color: black;
+    transition-duration: 0.5s;
+}
+header a:hover{
+    text-decoration: underline;
+    color: black;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: white;
+    
+}
+
+
+
