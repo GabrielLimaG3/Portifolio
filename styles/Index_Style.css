@@ -15,7 +15,6 @@ header a{
     transition-duration: 0.5s;
 }
 header a:hover{
-    text-decoration: underline;
     color: black;
     border-radius: 5px;
     padding: 10px;
