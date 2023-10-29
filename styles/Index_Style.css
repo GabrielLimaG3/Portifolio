@@ -1,9 +1,16 @@
 body{
     background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 hr{
     margin-bottom: 20px;
+}
+header ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: end;
 }
 header a{
     color: white;
@@ -13,14 +20,16 @@ header a{
     margin: 10px;
     background-color: black;
     transition-duration: 0.5s;
+    font-weight: bolder;
 }
 header a:hover{
     color: black;
     border-radius: 5px;
     padding: 10px;
     background-color: white;
-    
 }
-
+header h1{
+    margin: auto;
+}
 
 
