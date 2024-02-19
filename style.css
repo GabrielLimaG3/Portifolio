@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    font-family: "Inter", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+section{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+h1{
+    font-weight: bold;
+}
+h2{
+    font-weight: 100;
+    font-size: 16px;
+}
+body{
+    color: #ffff;
+    background-color: rgb(30, 30, 30);
+}
+.conteiner-main{   
+    display: flex;
+    padding-top: 100px;
+    padding-left: 25px;
+}
+.conteiner-main > img{
+    height: 230px;
+    width: 409px;
+    padding-top: 0px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 20px 1px black;
+     
+}
+.text-conteiner-main{
+    padding-left: 25px;
+    padding-top: 10px;
+}
+.text-h2-conteiner-main{
+    padding-top: 10px;
+}
+.text-sobre-mim{
+    padding-top: 55px;
+    font-size: 14px;
+    width: 780px;
+    height: 208;
+    box-shadow: none;
+}
+
+.img-tecnologias img{
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+}
+.conteiner-sobre{
+    padding-left: 25px;
+    padding-top: 35px;
+}
+.title-sobre-mim .text-sobre-mim{
+    display: inline-block;
+    padding-top: 55px;
+    width: 820;
+}
+.text-h1-conteiner-main h1{
+    font-size: 38px;
+}
+.text-h2-conteiner-main h2{
+    font-weight: 100;
+
+}
+.tecnologias{
+
+    padding: 100px 0px 0px 00px;
+}
+.tecnologias h1{
+    text-align: center;
+    font-weight: 100;
+}
+
+
