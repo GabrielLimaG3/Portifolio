@@ -54,11 +54,11 @@ body{
     margin: 5px;
 }
 .conteiner-sobre{
+    display: inline-flex;
     padding-left: 25px;
     padding-top: 35px;
 }
 .title-sobre-mim .text-sobre-mim{
-    display: inline-block;
     padding-top: 55px;
     width: 820;
 }
@@ -67,15 +67,35 @@ body{
 }
 .text-h2-conteiner-main h2{
     font-weight: 100;
-
 }
 .tecnologias{
-
-    padding: 100px 0px 0px 00px;
+    padding: 100px 0px 0px 0px;
 }
 .tecnologias h1{
     text-align: center;
     font-weight: 100;
+}
+.buttons-contato{
+
+    padding: 0% 0% 0% 0%;
+}
+
+.buttons-contato button{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin: 0px 40px 0px 0px;
+}
+
+.button-contato{
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 10% 0% 5% 0%;
+}
+.button-contato button{
+    border-radius: 15px;
+    width: 140px;
+    height: 40px;
 }
 
 
