@@ -54,7 +54,7 @@ body{
     margin: 5px;
 }
 .conteiner-sobre{
-    display: inline-flex;
+    display: flex;
     padding-left: 25px;
     padding-top: 35px;
 }
@@ -75,27 +75,38 @@ body{
     text-align: center;
     font-weight: 100;
 }
-.buttons-contato{
-
-    padding: 0% 0% 0% 0%;
+.buttons{
+    padding: 0% 7% 0% 5%;
+    margin: 5px auto;
+    width: 400px;
 }
 
 .buttons-contato button{
+    border: none;
+    margin: auto;
     border-radius: 50%;
     width: 40px;
     height: 40px;
-    margin: 0px 40px 0px 0px;
+    margin: 0px 20px;
+    background-color: rgba(217, 217, 217, 0.1);
+}
+
+.buttons-contato button img{
+    height: 15px;
 }
 
 .button-contato{
     display: flex;
     flex-direction: column-reverse;
     padding: 10% 0% 5% 0%;
+    align-items: center;
 }
 .button-contato button{
     border-radius: 15px;
-    width: 140px;
+    width: 200px;
     height: 40px;
+    border: solid;
+    background-color: rgba(0, 0, 0, 0);
 }
 
 
