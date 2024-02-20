@@ -30,8 +30,7 @@ body{
     width: 409px;
     padding-top: 0px;
     border-radius: 20px;
-    box-shadow: 3px 3px 20px 1px black;
-     
+    box-shadow: 3px 3px 20px 1px black; 
 }
 .text-conteiner-main{
     padding-left: 25px;
@@ -56,10 +55,10 @@ body{
 .conteiner-sobre{
     display: flex;
     padding-left: 25px;
-    padding-top: 35px;
+    padding-top: 75px;
 }
 .title-sobre-mim .text-sobre-mim{
-    padding-top: 55px;
+    padding-top: 15px;
     width: 820;
 }
 .text-h1-conteiner-main h1{
@@ -77,10 +76,9 @@ body{
 }
 .buttons{
     padding: 0% 7% 0% 5%;
-    margin: 5px auto;
+    margin: 0% 1%;
     width: 400px;
 }
-
 .buttons-contato button{
     border: none;
     margin: auto;
@@ -90,11 +88,9 @@ body{
     margin: 0px 20px;
     background-color: rgba(217, 217, 217, 0.1);
 }
-
 .buttons-contato button img{
     height: 15px;
 }
-
 .button-contato{
     display: flex;
     flex-direction: column-reverse;
