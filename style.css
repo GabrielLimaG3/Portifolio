@@ -87,12 +87,12 @@ body{
     height: 40px;
     margin: 0px 20px;
     background-color: rgba(217, 217, 217, 0.1);
-    transition: 1.5s;
+    transition: 1.15s;
 }
 .buttons-contato button:hover{
     background-color: #8d6aec;
     box-shadow: 1px 1px 20px #8d6aec;
-    transform: scale(1.05);
+    transform: scale(1.1);
 }
 .buttons-contato button img{
     height: 15px;
