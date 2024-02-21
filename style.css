@@ -75,8 +75,8 @@ body{
     font-weight: 100;
 }
 .buttons{
-    padding: 0% 7% 0% 5%;
-    margin: 0% 1%;
+    padding: 0px 0px 0px 90px;
+    margin: 0% 3%;
     width: 400px;
 }
 .buttons-contato button{
@@ -93,7 +93,6 @@ body{
     background-color: #8d6aec;
     box-shadow: 1px 1px 20px #8d6aec;
     transform: scale(1.05);
-    
 }
 .buttons-contato button img{
     height: 15px;
@@ -101,7 +100,7 @@ body{
 .button-contato{
     display: flex;
     flex-direction: column-reverse;
-    padding: 10% 0% 5% 0%;
+    padding: 10% 20% 0% 0%;
     align-items: center;
 }
 .button-contato button{
