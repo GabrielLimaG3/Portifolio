@@ -5,6 +5,10 @@
     margin: 0;
     padding: 0;
 }
+a{
+    text-decoration: none;
+    color: black;
+}
 section{
     max-width: 1280px;
     margin: 0 auto;
@@ -40,7 +44,7 @@ body{
     padding-top: 10px;
 }
 .text-sobre-mim{
-    padding-top: 55px;
+    padding-top: 25px;
     font-size: 14px;
     width: 780px;
     height: 208;
@@ -52,14 +56,11 @@ body{
     height: 40px;
     margin: 5px;
 }
+
 .conteiner-sobre{
     display: flex;
     padding-left: 25px;
-    padding-top: 75px;
-}
-.title-sobre-mim .text-sobre-mim{
-    padding-top: 15px;
-    width: 820;
+    padding-top: 80px;
 }
 .text-h1-conteiner-main h1{
     font-size: 38px;
