@@ -22,7 +22,7 @@ h2{
 }
 body{
     color: #ffff;
-    background-color: rgb(30, 30, 30);
+    background-color: rgba(0, 0, 0, 0.918);
 }
 .conteiner-main{   
     display: flex;
@@ -35,6 +35,8 @@ body{
     padding-top: 0px;
     border-radius: 20px;
     box-shadow: 3px 3px 20px 1px black; 
+    position: relative;
+    animation: anime 1.5s ease-in-out infinite alternate-reverse;
 }
 .text-conteiner-main{
     padding-left: 25px;
@@ -91,8 +93,8 @@ body{
     transition: 1.15s;
 }
 .buttons-contato button:hover{
-    background-color: #8d6aec;
-    box-shadow: 1px 1px 20px #8d6aec;
+    background-color: #8031E7;
+    box-shadow: 1px 1px 20px #8031E7;
     transform: scale(1.1);
 }
 .buttons-contato button img{
@@ -116,14 +118,22 @@ body{
 }
 
 .button-contato button:hover{
-    background-color: #8d6aec;
-    box-shadow: 1px 1px 20px #8d6aec;
+    background-color: #8031E7;
+    box-shadow: 1px 1px 20px #8031E7;
     transform: scale(1.05);
     border: hidden;
 }
 .button-contato button img{
     margin-left: 2px;
     width: 20px;
+}
+
+@keyframes anime{
+    0%{
+        top: 0px;
+    }100%{
+        top: 20px
+    }
 }
 
 
