@@ -123,7 +123,7 @@ body{
     transform: scale(1.05);
     border: hidden;
 }
-.button-contato button:default{
+.button-contato button:disabled{
     background-color: rgba(217, 217, 217, 0.1);
     transform: scale(1.0);
     box-shadow: none;
