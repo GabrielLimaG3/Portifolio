@@ -136,4 +136,39 @@ body{
     }
 }
 
+@media(max-width:1200px){
+    .conteiner-main{
+        flex-direction: column;
+        align-items: center;
+    }
+    .text-conteiner-main{
+        padding-top: 25px;
+    }
+    .tecnologias{
+        margin: auto;
+    }
+    .text-sobre-mim{
+        width: 400px;
+        padding-bottom: 55px;
+    }
+}
+@media (max-width:920px){
+    .conteiner-sobre{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (max-width:530px){
+    .text-h1-conteiner-main h1{
+        font-size: 30px;
+    }
+    .tecnologias h1{
+        font-size: 20px;
+    }
+    .img-tecnologias img{
+        width: 35px;
+        height: 35px;
+    }
+}
+
 
