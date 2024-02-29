@@ -123,6 +123,11 @@ body{
     transform: scale(1.05);
     border: hidden;
 }
+.button-contato button::before{
+    background-color: rgba(217, 217, 217, 0.1);
+    transform: scale(1.0);
+    box-shadow: none;
+}
 .button-contato button img{
     margin-left: 2px;
     width: 20px;
@@ -156,6 +161,7 @@ body{
     .conteiner-sobre{
         flex-direction: column;
         align-items: center;
+        padding-bottom: 55px;
     }
 }
 @media (max-width:530px){
@@ -168,6 +174,10 @@ body{
     .img-tecnologias img{
         width: 35px;
         height: 35px;
+    }
+    .conteiner-main > img{
+        height: 200px;
+        width: 330px;
     }
 }
 
