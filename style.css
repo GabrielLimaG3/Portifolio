@@ -30,6 +30,7 @@ body{
     padding-left: 25px;
 }
 .conteiner-main > img{
+    filter: contrast(1.2);
     height: 230px;
     width: 409px;
     padding-top: 0px;
@@ -57,6 +58,7 @@ body{
     width: 40px;
     height: 40px;
     margin: 5px;
+    filter: contrast(2);
 }
 
 .conteiner-sobre{
