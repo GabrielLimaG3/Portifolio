@@ -80,9 +80,10 @@ body{
     font-weight: 100;
 }
 .buttons{
-    padding: 0px 0px 0px 90px;
+    padding: 0% 0% 0% 2%;
     margin: 0% 3%;
     width: 400px;
+    text-align: center;
 }
 .buttons-contato button{
     border: none;
@@ -100,8 +101,8 @@ body{
 .button-contato{
     display: flex;
     flex-direction: column-reverse;
-    padding: 10% 20% 0% 0%;
-    align-items: center;
+    padding: 10% 22.5% 0% 0%;
+    align-items: end;
 }
 .button-contato button{
     border-radius: 15px;
