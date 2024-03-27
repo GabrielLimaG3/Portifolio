@@ -184,6 +184,15 @@ body{
     .text-h1-conteiner-main h1{
         font-size: 25px;
     }
+    section{
+        padding: 0;
+    }
+    .conteiner-sobre{
+        padding-left: 0.875rem;
+    }
+    .conteiner-main{   
+        padding-left: 0.875rem;
+    }
 
 }
 @media (min-width:768px) {
