@@ -4,9 +4,9 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
 a{
-    text-decoration: none;
     color: black;
 }
 section{
@@ -79,10 +79,8 @@ body{
     text-align: center;
     font-weight: 100;
 }
-.buttons{
-    
-    width: 25rem;
-    text-align: center;
+.buttons-contato{
+    padding: 0 0 0 6.875rem;
 }
 .buttons-contato button{
     border: none;
@@ -144,6 +142,9 @@ body{
     }
     .text-conteiner-main{
         padding-top: 25px;
+    }
+    .buttons-contato{
+        padding: 0;
     }
     .tecnologias{
         margin: auto;
