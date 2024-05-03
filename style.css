@@ -13,13 +13,16 @@ section{
     max-width: 1280px;
     margin: 0 auto;
     padding-left: 3%;
+    visibility: hidden;
 }
 h1{
     font-weight: bold;
+
 }
 p{
     font-weight: 100;
     font-size: 16px;
+
 }
 body{
     color: #ffff;
@@ -32,6 +35,7 @@ body{
 }
 .conteiner-main > img{
     filter: contrast(1.2);
+
     height: 230px;
     width: 409px;
     padding-top: 0px;
