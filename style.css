@@ -93,7 +93,10 @@ body{
     transition: 1.15s;
 }
 .buttons-contato button img{
-    height: 15px;
+    height: 18px;
+    width: 20px;
+    align-items: center;
+    vertical-align: sub;
 }
 .button-contato{
     display: flex;
